@@ -42,7 +42,6 @@ module "asg" {
   target_group_arn      = module.alb.target_group_arn
   instances_type = var.instances_types
   ami_id = var.ami_id
-  ec2_profile_name = module.iamroles.ec2_profile_name
 }
 
 
