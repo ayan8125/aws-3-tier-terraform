@@ -29,10 +29,6 @@ variable "instances_type" {
     type = string
 }
 
-variable "ec2_profile_name" {
-    type = string
-}
-
 
 ################################################
 # LAUNCH TEMPLATE
